@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 
+        Name: Gavin Allred
+        Date: May 8, 2024
+        Project: Final Project - Online Profile
+        File: form.html
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap">
+</head>
+<body>
+    <header>
+        <h1 style="margin-bottom: 0; font-size: 5em; font-family: 'Dancing Script', cursive; margin-top: 15px;">Conatct Me!</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li><a href="form.html">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <Form method="get" action="ThankYou.html">
+            <label for="fName">
+                Name: 
+                <input type="text" name="fName" id="fName" placeholder="First" required/>
+                <input type="text" name="lName" id="lName" placeholder="Last" required/>
+            </label>
+            <label for="Email">
+                Email:
+                <input id="emailTextBox" type="email" name="Email Address" placeholder="Email" required/>
+            </label>
+            <Label for="contactMe">
+                Info:
+                <input style="width: 85%;" id="contactMe" type="text" name="contactMe" placeholder="Additional Information"/>
+            </Label>
+            <input type="submit" value="Submit"/>
+        </Form>
+
+    </main>
+    
+</body>
+</html>

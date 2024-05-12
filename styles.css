@@ -1,3 +1,9 @@
+/*
+    Name: Gavin Allred
+    Date: May 8, 2024
+    Project: Final Project - Online Profile
+    File: styles.css
+*/
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -61,6 +67,7 @@ section {
 
 h2 {
     color: #333;
+    text-decoration: underline;
 }
 
 footer {
@@ -68,7 +75,6 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px;
-    position: fixed;
     bottom: 0;
     width: 100%;
 }
@@ -102,8 +108,10 @@ footer {
     background-color: #4fc3a1;
     padding: 5px;
     margin-left: 25px;
-    border: 2px solid  black;
-    border-radius: 10px;
+    /*border: 1px solid  black;*/
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .schedule-table {
@@ -119,6 +127,7 @@ footer {
 .schedule-table th,
 .schedule-table td {
     border: 1px solid black; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 8px;
     text-align: left;
 }
@@ -139,4 +148,17 @@ footer {
 
 .schedule-table td{
     text-align: center;
+}
+
+form{
+    background-color: #4fc3a1;
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+label{
+    display: block;
+    position: relative;
+    padding-bottom: 10px;
 }
