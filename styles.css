@@ -105,3 +105,38 @@ footer {
     border: 2px solid  black;
     border-radius: 10px;
 }
+
+.schedule-table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.schedule-table caption {
+    font-weight: bold;
+}
+
+.schedule-table th,
+.schedule-table td {
+    border: 1px solid black; 
+    padding: 8px;
+    text-align: left;
+}
+
+.schedule-table th {
+    background-color: #4fc3a1; 
+    color: white;
+    text-align: center;
+}
+
+.schedule-table tbody tr:nth-child(even) {
+    background-color: #4fc3a1;
+}
+
+.schedule-table tbody tr:nth-child(odd) {
+    background-color: white; 
+}
+
+.schedule-table td{
+    text-align: center;
+}
