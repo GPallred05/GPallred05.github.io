@@ -204,3 +204,24 @@ label{
 .subsection a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 950px) {
+    .about-me-container {
+        width: 100%; /* Adjust width to fill the available space */
+        max-width: none; /* Remove max-width constraint */
+    }
+    
+    .about-me-content {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+    }
+    
+    .about-me-image {
+        display: none;
+    }
+
+    .about-me-description {
+        text-align: center; /* Center the text */
+        margin: 0; /* Reset margin */
+    }
+}
