@@ -1,0 +1,46 @@
+/*
+Name: Gavin Allred
+    Date: 2/23
+    Project: Responsive Travel
+    File Name: responsiveStyles.css
+*/
+.alerts{
+    display: none;
+}
+
+.summary, .history{
+    width: 49.8%;
+}
+
+.history{
+    margin-left: 4px;
+    margin-right: 0px;
+}
+
+.logo{
+    display: none;
+}
+
+h1{
+    font-size: 9em;
+}
+
+@media screen and (max-width: 1050px){
+    .summary, .history{
+        width: 100%;
+    }
+    
+    .history{
+        clear: both;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    h1{
+        font-size: 7.5em;
+    }
+
+    .li1, .li2{
+        display: none;
+    }
+}
